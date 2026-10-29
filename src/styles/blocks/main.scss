@@ -1,0 +1,6 @@
+.main {
+  display: grid;
+  background-color: $main-bg-color;
+
+  @include content-padding-inline;
+}
