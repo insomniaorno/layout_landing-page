@@ -62,7 +62,7 @@
         transition: all $effect-duration;
       }
 
-      &:focus-within &-number {
+      &:hover &-number {
         opacity: 1;
         max-width: 200px;
         transform: translateX(0);
